@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title lang="en-GB">Minimal configuration</title>
+        <input-field type="text">
+            <name>merchantID</name>
+            <label>Merchant ID</label>
+            <defaultValue>100856</defaultValue>
+        </input-field>
+
+        <input-field type="text">
+            <name>signatureKey</name>
+            <label>Signature Key</label>
+            <defaultValue>Circle4Take40Idea</defaultValue>
+        </input-field>
+
+
+        <input-field type="single-select">
+            <name>integrationType</name>
+            <label>Integration Type</label>
+            <defaultValue>hosted</defaultValue>
+            <options>
+                <option>
+                    <id>hosted</id>
+                    <name>Hosted</name>
+                </option>
+                <option>
+                    <id>modal</id>
+                    <name>Modal</name>
+                </option>
+            </options>
+        </input-field>
+
+        <input-field type="text">
+            <name>currency</name>
+            <label>Currency</label>
+            <defaultValue>826</defaultValue>
+            <helpText>Please fill in ISO code or numeric value (ex. 826, GBR)</helpText>
+        </input-field>
+
+
+        <input-field type="text">
+            <name>countryCode</name>
+            <label>Country Code</label>
+            <defaultValue>826</defaultValue>
+            <helpText>Please fill in ISO code or numeric value (ex. 826, GBR)</helpText>
+        </input-field>
+
+
+        <input-field type="bool">
+            <name>debug</name>
+            <label>Debug</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+    </card>
+</config>

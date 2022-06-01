@@ -1,0 +1,30 @@
+{
+    "name": "p3/payment-plugin",
+    "description": "Payment plugin to accept payment via Payment Network",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "ext-curl": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "P3\\PaymentNetwork\\PaymentPlugin",
+        "label": {
+            "en-GB": "Payment Network"
+        },
+        "description": {
+            "en-GB": "PaymentNetwork"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "P3\\PaymentNetwork\\": "src/"
+        }
+    }
+}
