@@ -13,22 +13,22 @@ class Gateway
     /**
      * @var string	Gateway Hosted API Endpoint
      */
-    protected $hostedUrl = 'https://gateway.cardstream.com/hosted/';
+    protected $hostedUrl = 'https://commerce-api.handpoint.com/hosted/';
 
     /**
      * @var string	Gateway Direct API Endpoint
      */
-    protected $directUrl = 'https://gateway.cardstream.com/direct/';
+    protected $directUrl = 'https://commerce-api.handpoint.com/direct/';
 
     /**
      * @var string	Merchant Account Id or Alias
      */
-    protected $merchantID = '100856';
+    protected $merchantID = '155928';
 
     /**
      * @var string	Secret for above Merchant Account
      */
-    protected $merchantSecret = 'Circle4Take40Idea';
+    protected $merchantSecret = 'm3rch4nts1gn4tur3k3y';
 
     /**
      * Useful response codes
